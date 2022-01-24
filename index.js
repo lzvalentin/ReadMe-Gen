@@ -34,21 +34,27 @@ const questions = [ {
 },
 {
     type: 'input',
-    name: 'contributors',
+    name: 'credits',
     message: 'Provide developers in your project.',   
 },
 {
     type: 'list',
     name: 'license',
-    message: 'choose a license:',
-    choices: ["a", "b", "c"]
+    message: 'choose a license:', 
+    choices: ["Apache 2.0", "GNU 3.0 (GPL)", "GNU Library (LGPL)", "MIT License", "Mozilla Public License 2.0", "Common Development and Distrubtion License", "Eclipse Public License version 2.0"]
 },
 {   
     type: 'input',
     name: 'email',
     message: "What is your E-mail?"
 
+},
+{
+    test: 'input',
+    name: 'tests',
+    message: "Write tests dones for you application. "
 }
+
 ];
 
 // TODO: Create a function to write README file
