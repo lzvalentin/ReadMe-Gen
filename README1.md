@@ -1,10 +1,11 @@
-# 
+# README GENERATOR
+  
 ## Badges 
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache 2.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## Description
 
-  
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
 ## Table of Contents
 
@@ -17,7 +18,7 @@
 
 ## Installation
 
-
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
 ## Usage
 
@@ -26,14 +27,20 @@
 ## License
 
 
-Click here: Apache 2.0
-[Apache 2.0](https://opensource.org/licenses/Apache-2.0)
+Click here: MIT License
+[MIT License(https://opensource.org/licenses/MIT)
 
 ## Credits
 
+Me
+
+## Tests
 
 
-##Tests
 
+## Questions
 
+### Any questions, you can contact me here:
+[example123456](http://github.com/example123456)
+example@example.com
 

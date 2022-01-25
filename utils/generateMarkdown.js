@@ -3,19 +3,25 @@ const licArray = ["Apache 2.0", "GNU 3.0 (GPL)", "GNU Library (LGPL)", "MIT Lice
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === licArray[0]){
-    return "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache2.0-green.svg)](https://opensource.org/licenses/Apache-2.0)"
+    return "![License: Apache 2.0](https://img.shields.io/badge/License-Apache2.0-green.svg)"
 
-} else if (license===licArray[1]){"[![License: GNU 3.0](https://img.shields.io/badge/License-GNU3.0-green.svg)](https://opensource.org/licenses/GPL-3.0)"
+} else if (license===licArray[1]){
+  return "![License: GNU 3.0](https://img.shields.io/badge/License-GNU3.0-green.svg)"
 
-} else if (license===licArray[2]){"[![License: GNU Library](https://img.shields.io/badge/License-GNU-Library-(LGPL)-green.svg))](https://opensource.org/licenses/LGPL-3.0)"
+} else if (license===licArray[2]){
+  return "![License: GNU Library](https://img.shields.io/badge/License-GNU-Library-(LGPL)-green.svg))"
 
-}else if (license===licArray[3]){"[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
+}else if (license===licArray[3]){
+  return "![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)"
 
-}else if (license===licArray[4]){"[![License: Mozilla](https://img.shields.io/badge/License-Mozilla Public License 2.0-green.svg)](https://opensource.org/licenses/MPL-2.0)"
+}else if (license===licArray[4]){
+  return "![License: Mozilla](https://img.shields.io/badge/License-Mozilla Public License 2.0-green.svg)"
 
-}else if (license==licArray[5]) {"[![License: Common Dev](https://img.shields.io/badge/License-Common Development & Distrubtion-green.svg)](https://opensource.org/licenses/CDDL-1.0)"
+}else if (license==licArray[5]) {
+  return "![License: Common Dev](https://img.shields.io/badge/License-Common Development & Distrubtion-green.svg)"
 }
-else if (license===licArray[6]){"[![License: Eclipse Public License 2.0](https://img.shields.io/badge/License-Eclipse Public License 2.0-green.svg)](https://opensource.org/licenses/EPL-2.0)"
+else if (license===licArray[6]){
+  return "![License: Eclipse Public License 2.0](https://img.shields.io/badge/License-Eclipse Public License 2.0-green.svg)"
 }else {
   return ""
 }
@@ -86,6 +92,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  
 ## Badges 
 ${renderLicenseBadge(data.license)}
 
@@ -127,7 +134,7 @@ ${data.tests}
 ## Questions
 
 ### Any questions, you can contact me here:
-[${$data.username}](http://github.com/${data.username})
+[${data.username}](http://github.com/${data.username})
 ${data.email}
 
 `;
