@@ -1,12 +1,12 @@
-# ReadMe-Gen# Your Project Title
+# ReadMe-Gen
 
 ## Description 
 
 When creating a repo through Github you need a quality README. 
 
 The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
-## Usage 
 
+## Usage 
 
 ```md
 GIVEN a command-line application that accepts user input
@@ -27,6 +27,7 @@ THEN I am taken to the corresponding section of the README
 ```
 
 ![alt text](./assets/workingsample.gif)
+
 ## Credits
 
 https://github.com/lzvalentin
